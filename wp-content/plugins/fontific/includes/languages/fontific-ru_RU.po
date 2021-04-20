@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fontific\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-15 13:52+0300\n"
+"PO-Revision-Date: 2011-04-15 13:54+0300\n"
+"Last-Translator: Andrei Ivasiuc <andrei@kringapps.com>\n"
+"Language-Team: Kringapps\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ../../.\n"
+"X-Poedit-Country: MOLDOVA, REPUBLIC OF\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: fontific.php:98
+msgid "Fontific"
+msgstr "Fontific"
+
+#: fontific.php:99
+msgid "Fonts"
+msgstr "Шрифты"
+
+#: fontific.php:129
+#: includes/fontific_rule.php:24
+msgid "Enter selector here"
+msgstr "Введие селектор"
+
+#: includes/fontific_page.php:5
+#, fuzzy
+msgid "For more details about Google Web Fonts please visit"
+msgstr "Более подробную информацию о Google Web Fonts вы найдёте на"
+
+#: includes/fontific_page.php:5
+msgid "Official Google Web Fonts website"
+msgstr "Офицальный сайт Google Web Fonts"
+
+#: includes/fontific_page.php:5
+#, fuzzy
+msgid "Google Fonts website"
+msgstr "Офицальный сайт Google Web Fonts"
+
+#: includes/fontific_page.php:6
+msgid "Need help? Please visit"
+msgstr "Нужна помощь? Посетите"
+
+#: includes/fontific_page.php:6
+msgid "Official Fontific website"
+msgstr "Официальный сайт"
+
+#: includes/fontific_page.php:6
+msgid "official plugin website"
+msgstr "официальном сайте плагина"
+
+#: includes/fontific_page.php:13
+#: includes/fontific_page.php:32
+msgid "collapse all"
+msgstr "свернуть всё"
+
+#: includes/fontific_page.php:14
+#: includes/fontific_page.php:33
+msgid "expand all"
+msgstr "развернуть всё"
+
+#: includes/fontific_page.php:17
+#: includes/fontific_page.php:36
+msgid "Save all changes"
+msgstr "Сохранить изменения"
+
+#: includes/fontific_page.php:42
+msgid "New font rule"
+msgstr "Новое правило"
+
+#: includes/fontific_rule.php:4
+msgid "Regular"
+msgstr "Прямой"
+
+#: includes/fontific_rule.php:5
+msgid "Italic"
+msgstr "Курсив"
+
+#: includes/fontific_rule.php:6
+msgid "Bold"
+msgstr "Жирный"
+
+#: includes/fontific_rule.php:7
+msgid "BoldItalic"
+msgstr "Жирный Курсив"
+
+#: includes/fontific_rule.php:13
+msgid "Collapse rule"
+msgstr "Свернуть правило"
+
+#: includes/fontific_rule.php:14
+msgid "Delete rule"
+msgstr "Удалить правило"
+
+#: includes/fontific_rule.php:35
+msgid "Font family"
+msgstr "Гарнитура"
+
+#: includes/fontific_rule.php:48
+msgid "Variant"
+msgstr "Начертание"
+
+#: includes/fontific_rule.php:65
+msgid "Font size"
+msgstr "Размер"
+
+#: includes/fontific_rule.php:71
+msgid "Font color"
+msgstr "Цвет"
+
+#: includes/fontific_rule.php:84
+msgid "Line height"
+msgstr "Р. между строками"
+
+#: includes/fontific_rule.php:89
+msgid "Word spacing"
+msgstr "Р. между словами"
+
+#: includes/fontific_rule.php:94
+msgid "Letter spacing"
+msgstr "Отступы"
+
+#: includes/fontific_rule.php:103
+msgid "Preview"
+msgstr "Пример"
+
+#: includes/fontific_rule.php:104
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+msgstr "Своим жилищем Ходжа Насреддин остался вполне доволен. Эмир прислал ему двенадцать одеял, восемь подушек, множество разной утвари, корзину с белыми свежими лепешками, мед в кувшине и много других яств со своего стола. Ходжа Насреддин очень устал и проголодался, но прежде чем сесть за трапезу, он взял шесть одеял, четыре подушки и понес все это наверх своему пленнику."
+
