@@ -1,0 +1,272 @@
+.fontific-controls{
+	margin-top: 30px;
+	width: 80%;
+}
+
+	.fontific-controls ul{
+		float: left;
+	}
+	
+		.fontific-controls ul li{
+			float: left;
+			margin-right: 10px;
+		}
+		
+			.fontific-controls ul li a{
+				padding: 3px 10px;
+				background: -moz-linear-gradient(center bottom , #E7E7E7, #FFFFFF) repeat scroll 0 0 transparent;
+				border: 1px solid #ccc;
+				-moz-border-radius: 20px;
+				-webkit-border-radius: 20px;
+				text-shadow: 1px 1px #fff;
+				text-decoration: none;
+				color: #555;
+			}
+	
+	.fontific-controls .save-all{
+		overflow: hidden;
+	}
+
+	.fontific-controls .save-all a{
+		display: block;
+		float: right;
+		padding: 3px 10px;
+		background: -moz-linear-gradient(center bottom , #E7E7E7, #FFFFFF) repeat scroll 0 0 transparent;
+		border: 1px solid #ccc;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		text-shadow: 1px 1px #fff;
+		text-decoration: none;
+		color: #555;
+	}
+	
+		.fontific-controls .save-all a.ajax span{
+			padding-left: 30px;
+			background: url(images/ajaxloader.gif) no-repeat 5px 3px;
+		}
+		
+	#fontific-add-rule a{
+		padding: 5px 10px;
+		font-size: 16px;
+		background: -moz-linear-gradient(center bottom , #E7E7E7, #FFFFFF) repeat scroll 0 0 transparent;
+		border: 1px solid #ccc;
+		-moz-border-radius: 20px;
+		-webkit-border-radius: 20px;
+		text-shadow: 1px 1px #fff;
+		text-decoration: none;
+		color: #555;
+	}
+	
+		#fontific-add-rule{
+			margin: 20px 0;
+		}
+		
+		#fontific-add-rule a span{
+			padding-left: 30px;
+			background: url(images/plus.png) no-repeat 3px 2px;
+		}
+	
+#fontific-font-factory{
+	clear: both;
+}
+
+
+.fontific-rule{
+	width: 80%;
+	min-width: 820px;
+	overflow: hidden;
+}
+
+	.fontific-rule-controls{
+		width: 200px;
+		float: right;
+		text-align: right;
+		padding-right: 10px;
+		position: relative;
+		top: 27px;
+	}
+	
+		.fontific-rule-controls .collapse, .fontific-rule-controls .delete{
+			cursor: pointer;
+		}
+
+	.fontific-rule fieldset{
+		clear: both;
+		border: 1px solid #ccc;
+		padding: 10px;
+		-moz-border-radius: 5px 5px 5px 5px;
+		-webkit-border-radius: 5px 5px 5px 5px;
+	}
+	
+		.fontific-rule fieldset label{
+			display: block;
+			margin: 5px 0 5px 3px;
+			font-size: 10px;
+			color: #777;
+			cursor: default;
+		}
+		
+		.fontific-rule fieldset select{
+			font-size: 12px !important;
+		}
+	
+		.fontific-rule fieldset legend{
+			padding-left: 5px;
+			padding-right: 0px;
+		}
+		
+			.fontific-rule fieldset legend.focused{
+				background: #eee !important;
+			}
+		
+			.fontific-selector-wrap{
+				display: block;
+				overflow: hidden;
+				width: 50px;
+				padding-right: 5px;
+				min-width: 20px;
+				
+			}
+			
+			.fontific-selector, .fontific-selector-prototype, .fontific-rule-collapsed{
+				border: none !important;
+				background: transparent !important;
+				color: #333;
+			    font-size: 18px;
+			    text-shadow: 1px 1px #fff;
+			}
+			
+			.fontific-selector{
+				width: 800px;
+				position: relative;
+			}
+			
+			.fontific-selector-prototype{
+				display: none;
+			}
+			
+			.fontific-rule-collapsed{
+				height: 20px;
+				display: none;
+				padding-left: 11px;
+				margin-top: 27px;
+				background: url(images/line.gif) repeat-x 0 8px !important;
+			}
+			
+				.fontific-rule-collapsed span{
+					background: #f9f9f9;
+					padding-left: 10px;
+					padding-right: 10px;
+				}
+	
+.fontific-font-settings{
+	width: 40%;
+	float: left;
+}
+
+	.fontific-font-wrap{
+		clear: both;
+	}
+
+		.fontific-font-family-wrap{
+			float: left;
+		}
+		
+			.fontific-font-family{
+				width: 200px;
+			}
+	
+		.fontific-font-variant-wrap{
+			float: left;
+			margin-left: 10px;
+		}
+		
+			.fontific-font-variant{
+				width: 95px;
+			}
+
+	.fontific-font-outfit-wrap{
+		float: left;
+		margin-top: 5px;
+	}
+
+		.fontific-font-size-wrap{
+			float: left;
+		}
+	
+			.fontific-font-size-slider{
+				font-size: 10px !important;
+				width: 195px;
+				margin-left: 5px;
+				margin-top: 10px;
+			}
+
+		.fontific-font-color-outer-wrap{
+			float: left;
+			margin-left: 10px;
+		}
+		
+			.fontific-font-color-wrap{
+				padding: 2px 0 3px 6px;
+				background: #fff;
+				-moz-border-radius: 3px;
+				border: 1px solid #dfdfdf;
+			}
+	
+				.fontific-font-color-wrap label{
+					display: inline !important;
+					vertical-align: baseline;
+					margin: 0 !important;
+					color: #777;
+				}
+		
+			.fontific-font-color{
+				background: transparent !important;
+				border: none !important;
+				text-transform: uppercase;
+				margin: 0 0 0 -2px;
+				padding-left: 0;
+			}
+			
+			.fontific-colorwheel{
+				position: relative;
+				top: 3px;
+				left: 2px;
+				cursor: pointer;
+			}
+			
+		.fontific-font-spacing{
+			margin-top: 5px;
+			float: left;
+		}			
+		
+		.fontific-spacing-line-wrap, .fontific-spacing-word-wrap, .fontific-spacing-letter-wrap{
+			float: left;
+			width: 106px;
+		}	
+		
+			.fontific-spacing-line, .fontific-spacing-word, .fontific-spacing-letter{
+				font-size: 10px !important;
+				width: 90px;
+				margin-left: 5px;
+				margin-top: 10px;
+			}
+
+.fontific-font-preview{
+	width: 60%;
+	float: right;
+	
+}
+
+	.fontific-font-summary{
+		float: right;
+		font-weight: bold;
+	}
+	.fontific-font-summary .fontsize{}
+
+	.fontific-font-preview textarea{
+		width: 100%;
+		height: 140px;
+		padding: 10px;
+		overflow: hidden;
+	}
