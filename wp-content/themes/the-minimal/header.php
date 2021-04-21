@@ -140,6 +140,7 @@ $the_minimal_ed_social = get_theme_mod('the_minimal_ed_social');
                 </nav>
             </div>
         </div><!-- .header-bottom -->
+    
 	</header><!-- #masthead -->
     
     <?php 
