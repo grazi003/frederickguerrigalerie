@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89132061-0ddb-4c88-818d-e0f224ccbb56" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../wwwgitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.mo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/continents-cities-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/continents-cities-fr_FR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-0cc31205f20441b3df1d1b46100f6b8d.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-0cc31205f20441b3df1d1b46100f6b8d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-0eebe503220d4a00341eb011b92769b4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-0eebe503220d4a00341eb011b92769b4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-1c4303f02ff93b290e9faad991eeb06f.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-1c4303f02ff93b290e9faad991eeb06f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-1d17475f620f63a92e2c5d2681c51ee8.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-1d17475f620f63a92e2c5d2681c51ee8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-2b390f85a3048c5b4255fb45960b6514.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-2b390f85a3048c5b4255fb45960b6514.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-4a38fe1c0c45989e44682ba6109d9f46.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-4a38fe1c0c45989e44682ba6109d9f46.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-4bfa11da57ff2600004bb500368247f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-4bfa11da57ff2600004bb500368247f4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-50278328b502f4eb3f2b8b7ab49324a1.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-50278328b502f4eb3f2b8b7ab49324a1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-5251f7623766a714c8207c7edb938628.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-5251f7623766a714c8207c7edb938628.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-529362903a5a05b34b06b5e793fb4cf8.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-529362903a5a05b34b06b5e793fb4cf8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-569e85ef168299eb8c8f24d8ef8c8a78.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-569e85ef168299eb8c8f24d8ef8c8a78.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-6025add6bde16aaeb12787d250f9b414.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-6025add6bde16aaeb12787d250f9b414.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-7436b7ee9e4f11ac0d618d8cc886eb66.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-7436b7ee9e4f11ac0d618d8cc886eb66.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-77fdfadaf2e1ca3a027d1956b910bc50.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-77fdfadaf2e1ca3a027d1956b910bc50.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-7d5ca435e60d92f024d46c9257aaa0f7.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-7d5ca435e60d92f024d46c9257aaa0f7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-81d6f084cb273e02e15b01bd9ece87f7.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-81d6f084cb273e02e15b01bd9ece87f7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-8240df461220d1d3a028a9a4c5652a5b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-8240df461220d1d3a028a9a4c5652a5b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-9b256ea9cd54df92095e04c76758ceb0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-9b256ea9cd54df92095e04c76758ceb0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-9c3519f4870fac83dc0dbf18cb6bd4c4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-9c3519f4870fac83dc0dbf18cb6bd4c4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-9d47a87c240c1d10701cd6a02b28aa1b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-9d47a87c240c1d10701cd6a02b28aa1b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-a9dc201dcd011fe71849743133052619.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-a9dc201dcd011fe71849743133052619.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-aabfce98c410957228848dc581e3c420.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-aabfce98c410957228848dc581e3c420.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-ca28138671823450e87dfd354f7afc6b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-ca28138671823450e87dfd354f7afc6b.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-e2e4c4b80f3adf2c70b431bfdb1b4872.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-e2e4c4b80f3adf2c70b431bfdb1b4872.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,7 +39,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -22,6 +49,7 @@
       <find>add_filter(</find>
       <find>jquery</find>
       <find>wpcp_disable_selection</find>
+      <find>babylon-viewer</find>
     </findStrings>
     <dirStrings>
       <dir>C:\wamp64\www\frederickguerrigalerie</dir>
@@ -48,9 +76,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="105" />
-    <option name="y" value="11" />
+    <option name="y" value="10" />
     <option name="width" value="1670" />
-    <option name="height" value="893" />
+    <option name="height" value="894" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -109,46 +137,35 @@
       <workItem from="1618995967355" duration="1251000" />
       <workItem from="1619016528609" duration="2080000" />
       <workItem from="1619029686034" duration="382000" />
+      <workItem from="1619086741634" duration="1192000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4823000" />
+    <option name="totallyTimeSpent" value="6015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="9" width="1336" height="714" extended-state="0" />
+    <frame x="84" y="8" width="1336" height="715" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32888147" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32888147" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">

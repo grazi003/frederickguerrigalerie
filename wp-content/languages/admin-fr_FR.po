@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.7.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-04-21 10:08:56+0000\n"
+"PO-Revision-Date: 2021-04-22 07:11:41+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -3472,7 +3472,7 @@ msgstr "SUHOSIN est-il installé ?"
 #: wp-admin/includes/class-wp-debug-data.php:744
 #: wp-admin/includes/class-wp-debug-data.php:749
 msgid "cURL version"
-msgstr "version de cURL"
+msgstr "Version de cURL"
 
 #: wp-admin/includes/class-wp-debug-data.php:735
 msgid "PHP post max size"
