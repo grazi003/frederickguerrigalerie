@@ -27,7 +27,7 @@ class W_Listener extends W_Core
     }
 
     /**
-     * Extend update_plugins for updating the WebARX plugin.
+     * Extend update_plugins for updating the Patchstack plugin.
      * 
      * @param object $update_plugins
      * @return object
@@ -77,9 +77,10 @@ class W_Listener extends W_Core
             'webarx_get_firewall_bans' => 'getFirewallBans',
             'webarx_firewall_unban_ip' => 'unbanFirewallIp',
             'webarx_upload_software' => 'uploadSoftware',
+            'webarx_upload_logs' => 'uploadLogs',
             'webarx_send_ping' => 'sendPing'
         ) as $key => $action) {
-            // Special case for WebARX plugin upgrade.
+            // Special case for Patchstack plugin upgrade.
             if (isset($_POST[$key])) {
                 $this->$action();
             }
@@ -339,7 +340,7 @@ class W_Listener extends W_Core
             $this->returnResults(false, null, 'No valid plugin names have been given.');
         }
 
-        // In case of WebARX we execute a special function.
+        // In case of Patchstack we execute a special function.
         if (in_array('webarx', $plugins)){
             $this->upgradeWebARX();
         }
@@ -489,7 +490,7 @@ class W_Listener extends W_Core
     }
 
     /**
-     * Function for WebARX plugin upgrade
+     * Function for Patchstack plugin upgrade
      * In case of plugin installation failure
      * revert back to old plugin version
      *
@@ -621,5 +622,17 @@ class W_Listener extends W_Core
     {
         do_action('webarx_send_software_data');
         $this->returnResults(null, 'The software data has been sent to the API.');
+    }
+
+    /**
+     * Upload the firewall and activity logs.
+     * 
+     * @return void
+     */
+    private function uploadLogs()
+    {
+        do_action('webarx_send_hacker_logs');
+        do_action('webarx_send_event_logs');
+        $this->returnResults(null, 'The logs have been sent to the API.');
     }
 }

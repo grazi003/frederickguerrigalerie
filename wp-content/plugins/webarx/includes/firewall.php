@@ -76,9 +76,9 @@ class W_Firewall extends W_Core
 
         // Check for whitelist.
         $this->isWhitelisted = $this->is_whitelisted();
-        if (!$this->isWhitelisted) {
-            $this->processor();
-        }
+
+        // Process the firewall rules.
+        $this->processor();
     }
 
     /**
@@ -371,17 +371,6 @@ class W_Firewall extends W_Core
             }
         }
 
-        // Special condition for vaultpress due to how their API communicates with the plugin.
-        if (isset($_GET['vaultpress']) && $_SERVER['SCRIPT_NAME'] == 'wp-load.php') {
-            return $default;
-        }
-
-        // Special condition for other plugins.
-        $url = explode('?', $_SERVER['REQUEST_URI']);
-        if (isset($url[0]) && strpos($_SERVER['SCRIPT_NAME'], 'index.php') !== false && (strpos($url[0], 'wc-api/v') !== false || strpos($url[0], 'wp-json/storychief') !== false)) {
-            return $default; 
-        }
-
         return $data;
     }
 
@@ -477,12 +466,18 @@ class W_Firewall extends W_Core
 
         // Iterate through all root objects.
         foreach ($this->rules as $firewallRule) {
-            $blockedRules = 0;
-            $oldRule = $firewallRule;
-            $firewallRule = json_decode($firewallRule['rule']);
+            $blockedCount = 0;
+            $firewallRule['bypass_whitelist'] = isset($firewallRule['bypass_whitelist']) ? $firewallRule['bypass_whitelist'] : false;
+
+            // Do we need to skip the whitelist for a particular rule?
+            if(isset($firewallRule['bypass_whitelist']) && !$firewallRule['bypass_whitelist'] && $this->isWhitelisted){
+                continue;
+            }
+
+            $ruleTerms = json_decode($firewallRule['rule']);
 
             // Determine if we should match the IP address.
-            $ip = isset($firewallRule->rules->ip_address) ? $firewallRule->rules->ip_address : null;
+            $ip = isset($ruleTerms->rules->ip_address) ? $ruleTerms->rules->ip_address : null;
             if (!is_null($ip)) {
                 $matchedIp = false;
                 if (strpos($ip, '*') !== false) {
@@ -501,10 +496,10 @@ class W_Firewall extends W_Core
             }
 
             // If matches on all request methods, only 1 rule match is required to block
-            if ($firewallRule->method === 'ALL') {
+            if ($ruleTerms->method === 'ALL') {
                 $countRules = 1;
             } else {
-                $countRules = json_decode(json_encode($firewallRule->rules), true);
+                $countRules = json_decode(json_encode($ruleTerms->rules), true);
                 $countRules = $this->count_rules($countRules);
             }
 
@@ -512,26 +507,26 @@ class W_Firewall extends W_Core
             foreach ($requests as $key => $request) {
                 $test = strtolower(preg_replace('/(?!^)[A-Z]{2,}(?=[A-Z][a-z])|[A-Z][a-z]/', '->$0', $key));
 
-                if ($firewallRule->method == $requests['method'] || $firewallRule->method == 'ALL' || $firewallRule->method == 'GET' || ($firewallRule->method == 'FILES' && $this->is_file_upload())) {
+                if ($ruleTerms->method == $requests['method'] || $ruleTerms->method == 'ALL' || $ruleTerms->method == 'GET' || ($ruleTerms->method == 'FILES' && $this->is_file_upload())) {
                     $exp = explode('->', $test);
                     $rule = array_reduce($exp, function ($o, $p) {
                         return $o->$p;
-                    }, $firewallRule);
+                    }, $ruleTerms);
 
                     if (!is_null($rule) && substr($key, 0, 4) == 'rule' && $this->is_rule_match($rule, $request)) {
-                        $blockedRules++;
+                        $blockedCount++;
                     }
                 }
             }
 
             // Determine if the user should be blocked.
-            if ($blockedRules >= $countRules) {
-                if ($firewallRule->type == 'BLOCK') {
-                    $this->block_user($oldRule['id']);
-                } elseif ($firewallRule->type == 'LOG') {
-                    $this->log_user($oldRule['id']);
-                } elseif ($firewallRule->type == 'REDIRECT') {
-                    $this->redirect_user($oldRule['id'], $firewallRule->type_params);
+            if ($blockedCount >= $countRules) {
+                if ($ruleTerms->type == 'BLOCK') {
+                    $this->block_user($firewallRule['id'], (bool) $firewallRule['bypass_whitelist']);
+                } elseif ($ruleTerms->type == 'LOG') {
+                    $this->log_user($firewallRule['id']);
+                } elseif ($ruleTerms->type == 'REDIRECT') {
+                    $this->redirect_user($firewallRule['id'], $ruleTerms->type_params);
                 }
             }
         }
@@ -570,11 +565,12 @@ class W_Firewall extends W_Core
      * Block the user, and log, do whatever is necessary.
      *
      * @param string $rule
+     * @param bool $bypassWhitelist
      * @return void
      */
-    private function block_user($rule)
+    private function block_user($rule, $bypassWhitelist = false)
     {
-        if (!$this->is_authenticated()) {
+        if (!$this->is_authenticated($bypassWhitelist)) {
             $this->display_error_page('55' . intval($rule));
         }
     }
@@ -587,7 +583,7 @@ class W_Firewall extends W_Core
      */
     private function log_user($rule)
     {
-        $this->log_hacker($rule, array(), 'LOG');
+        $this->log_hacker($rule);
     }
 
     /**
@@ -599,7 +595,7 @@ class W_Firewall extends W_Core
      */
     private function redirect_user($ruleId, $redirect)
     {
-        $this->log_hacker($ruleId, array(), 'REDIRECT', $redirect);
+        $this->log_hacker($ruleId);
 
         // Don't redirect an invalid URL.
         if(!$redirect || stripos($redirect, 'http') === false){
@@ -615,11 +611,12 @@ class W_Firewall extends W_Core
     /**
      * Determine if the user is authenticated and in the list of whitelisted roles.
      *
+     * @param bool $bypassWhitelist
      * @return bool
      */
-    private function is_authenticated()
+    private function is_authenticated($bypassWhitelist = false)
     {
-        if (!is_user_logged_in()) {
+        if ($bypassWhitelist || !is_user_logged_in()) {
             return false;
         }
         
@@ -649,34 +646,32 @@ class W_Firewall extends W_Core
      * @param array $block_params
      * @return void
      */
-    public function log_hacker($fid = 1, $query_vars = array(), $block_type = 'BLOCK', $block_params = '', $post_data = '')
+    public function log_hacker($fid = 1, $post_data = '')
     {
         global $wpdb;
-        if (!$wpdb) {
+        if (!$wpdb || $fid == 22) {
             return;
         }
 
         // Insert into the logs.
-        if ($fid != 22) {
-            $wpdb->insert(
-                $wpdb->prefix . 'webarx_firewall_log',
-                array(
-                    'ip' => $this->get_ip(),
-                    'request_uri' => isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '',
-                    'referer' => isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : '',
-                    'user_agent' => isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '',
-                    'protocol' => isset($_SERVER['SERVER_PROTOCOL']) ? $_SERVER['SERVER_PROTOCOL'] : '',
-                    'method' => isset($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : '',
-                    'query_string' => isset($_SERVER['QUERY_STRING']) ? $_SERVER['QUERY_STRING'] : '',
-                    'query_vars' => implode(', ', $query_vars),
-                    'fid' => $fid,
-                    'flag' => '-',
-                    'post_data' => $post_data != '' ? json_encode($post_data) : $this->get_post_data(),
-                    'block_type' => $block_type,
-                    'block_params' => $block_params
-                )
-            );
-        }
+        $wpdb->insert(
+            $wpdb->prefix . 'webarx_firewall_log',
+            array(
+                'ip' => $this->get_ip(),
+                'request_uri' => isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '',
+                'referer' => '',
+                'user_agent' => isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '',
+                'protocol' => '',
+                'method' => isset($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : '',
+                'query_string' => '',
+                'query_vars' => '',
+                'fid' => $fid,
+                'flag' => '-',
+                'post_data' => $post_data != '' ? json_encode($post_data) : $this->get_post_data(),
+                'block_type' => '',
+                'block_params' => ''
+            )
+        );
     }
 
     /**

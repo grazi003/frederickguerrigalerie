@@ -145,7 +145,7 @@ class W_Htaccess extends W_Core
 		// Get the current data in the .htaccess file.
 		$currentRules = $oldRules = $fs->get_contents(ABSPATH . '.htaccess');
 
-		// Delete all WebARX related stuff so we can properly re-inject it.
+		// Delete all Patchstack related stuff so we can properly re-inject it.
 		$currentRules = $this->delete_all_between('# BEGIN WebARX', '# END WebARX', $currentRules);
 		$currentRules = $this->delete_all_between('# CUSTOM WEBARX RULES', '# END CUSTOM WEBARX RULES', $currentRules);
 		$newRules = $this->delete_all_between('# BEGIN WordPress', '# END WordPress', $newRules);
@@ -170,18 +170,18 @@ class W_Htaccess extends W_Core
 		$newRules = preg_replace("/[\r\n]+/", "\r\n", $newRules);
 		$newRules = preg_replace("/#/", "\r\n#", $newRules);
 
-		// In order to support all WebARX plugin versions with newline fix, we have to remove this part ourselves.
+		// In order to support all Patchstack plugin versions with newline fix, we have to remove this part ourselves.
 		$newRules = str_replace("\r\n\r\n# BEGIN WebARX", "# BEGIN WebARX", $newRules);
 		$newRules = str_replace("# END WebARX\r\n", "# END WebARX", $newRules);
 
-		// Remove RewriteBase / from the WebARX rules.
+		// Remove RewriteBase / from the Patchstack rules.
 		$newRules = str_replace("\r\n  RewriteBase /", '', $newRules);
 		$newRules = str_replace('/index.php', 'index.php', $newRules);
 
 		// Merge the rules together.
 		$newRules = $newRules . "\n" . $currentRules;
 
-		// Determine if the WebARX rules starts on its own line.
+		// Determine if the Patchstack rules starts on its own line.
 		$lines = explode("\n", $newRules);
 		foreach ($lines as $line) {
 			if (stripos($line, 'begin webarx') !== false && trim(strtolower($line)) != '# begin webarx') {
@@ -244,7 +244,7 @@ class W_Htaccess extends W_Core
     }
 
 	/**
-	 * Remove all WebARX rules from the .htaccess file.
+	 * Remove all Patchstack rules from the .htaccess file.
 	 * 
 	 * @return void
 	 */

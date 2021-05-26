@@ -165,7 +165,7 @@ class W_Hardening extends W_Core
 		$countries = $this->get_option('webarx_geo_block_countries', array());
 		$ip = $this->get_ip();
 
-		// Don't block WebARX.
+		// Don't block Patchstack.
 		if(in_array($ip, $this->plugin->ips)){
 			return;
 		}

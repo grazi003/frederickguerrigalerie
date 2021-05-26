@@ -21,15 +21,15 @@ A powerful wordpress security plugin.
 
 == Frequently Asked Questions ==
 
-To view our FAQ, please go to [https://support.webarxsecurity.com/](https://support.webarxsecurity.com/).
+To view our FAQ, please go to [https://support.patchstack.com/](https://support.patchstack.com/).
 
 == Screenshots ==
 
 
 == Changelog ==
 
-To view our change log, please go to [https://support.webarxsecurity.com/technical-support-and-troubleshooting/general/portal-plugin-change-log](https://support.webarxsecurity.com/technical-support-and-troubleshooting/general/portal-plugin-change-log).
+To view our change log, please go to [https://support.patchstack.com/technical-support-and-troubleshooting/general/portal-plugin-change-log](https://support.patchstack.com/technical-support-and-troubleshooting/general/portal-plugin-change-log).
 
 == Upgrade Notice ==
 
-To view our change log, please go to [https://support.webarxsecurity.com/technical-support-and-troubleshooting/general/portal-plugin-change-log](https://support.webarxsecurity.com/technical-support-and-troubleshooting/general/portal-plugin-change-log).
+To view our change log, please go to [https://support.patchstack.com/technical-support-and-troubleshooting/general/portal-plugin-change-log](https://support.patchstack.com/technical-support-and-troubleshooting/general/portal-plugin-change-log).

@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * This class is used to schedule the tasks used by WebARX.
+ * This class is used to schedule the tasks used by Patchstack.
  */
 class W_Cron extends W_Core
 {

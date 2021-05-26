@@ -77,7 +77,7 @@ class W_Admin_General extends W_Core
     }
 
 	/**
-	 * When the user changes WebARX plugin settings, update the firewall rules.
+	 * When the user changes Patchstack plugin settings, update the firewall rules.
      * 
      * @return void
 	 */

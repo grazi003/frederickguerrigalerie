@@ -9,7 +9,7 @@ if (!defined('ABSPATH')) {
  * Plugin Name: Patchstack
  * Plugin URI:  https://patchstack.com
  * Description: A powerful WordPress security plugin.
- * Version: 2.0.18
+ * Version: 2.0.19
  * Author: Patchstack
  * Author URI:  https://patchstack.com
  * Donate link: https://patchstack.com
@@ -20,7 +20,7 @@ if (!defined('ABSPATH')) {
  * @link    https://patchstack.com
  *
  * @package Patchstack
- * @version 2.0.18
+ * @version 2.0.19
  *
  */
 
@@ -31,7 +31,7 @@ if (!defined('ABSPATH')) {
 
 if (!function_exists('webarx_autoload_classes')) {
 	/**
-	 * Autoloads the WebARX classes when called.
+	 * Autoloads the Patchstack classes when called.
 	 *
 	 * @param string $class_name
 	 * @return void
@@ -60,8 +60,8 @@ spl_autoload_register('webarx_autoload_classes');
 if (!class_exists('Webarx')) {
 
 	/**
-	 * This is the main WebARX class used for all WebARX related features and to launch
-	 * the WebARX plugin.
+	 * This is the main Patchstack class used for all Patchstack related features and to launch
+	 * the Patchstack plugin.
 	 */
 	class Webarx
 	{
@@ -69,10 +69,10 @@ if (!class_exists('Webarx')) {
 		 * The plugin version.
 		 * @var string
 		 */
-		const VERSION = '2.0.18';
+		const VERSION = '2.0.19';
 
 		/**
-		 * API URL of WebARX to communicate with.
+		 * API URL of Patchstack to communicate with.
 		 * @var    string
 		 */
 		const API_SERVER_URL = 'https://api.webarxsecurity.com';
@@ -105,7 +105,7 @@ if (!class_exists('Webarx')) {
 		 * Known IP addresses.
 		 * @var array
 		 */
-		protected $ips = array('18.221.197.243', '52.15.237.250', '3.19.3.34', '3.18.238.17', '13.58.49.77', '18.220.70.233');
+		protected $ips = array('18.221.197.243', '52.15.237.250', '3.19.3.34', '3.18.238.17', '13.58.49.77', '18.220.70.233', '3.140.84.221');
 
 		/**
 		 * URL of the plugin directory.
@@ -144,7 +144,7 @@ if (!class_exists('Webarx')) {
 		protected static $single_instance = null;
 
 		/**
-		 * Define all the variables that will hold the WebARX classes.
+		 * Define all the variables that will hold the Patchstack classes.
 		 * These must be defined because it allows us to communicate from one class to the other.
 		 */
 		protected $firewall;
@@ -198,7 +198,7 @@ if (!class_exists('Webarx')) {
 		}
 
 		/**
-		 * Call the constructor of all the WebARX related classes.
+		 * Call the constructor of all the Patchstack related classes.
 		 *
 		 * @return void
 		 */
@@ -258,7 +258,7 @@ if (!class_exists('Webarx')) {
 		}
 
 		/**
-		 * Boot WebARX and its classes.
+		 * Boot Patchstack and its classes.
 		 *
 		 * @return void
 		 */
@@ -268,7 +268,7 @@ if (!class_exists('Webarx')) {
 		}
 		
 		/**
-		 * Boot WebARX
+		 * Boot Patchstack
 		 *
 		 * @return void
 		 */
@@ -349,7 +349,7 @@ if (!function_exists('webarx_uninstall')) {
      */
     function webarx_uninstall()
     {
-        // Delete most of the WebARX options.
+        // Delete most of the Patchstack options.
         $options = array('webarx_eventlog_lastid', 'webarx_api_token', 'webarx_dashboardlock', 'webarx_pluginedit', 'webarx_move_logs', 'webarx_userenum', 'webarx_basicscanblock', 'webarx_hidewpcontent', 'webarx_hidewpversionk', 'webarx_prevent_default_file_access', 'webarx_basic_firewall', 'webarx_known_blacklist', 'webarx_block_debug_log_access', 'webarx_block_fake_bots', 'webarx_index_views', 'webarx_proxy_comment_posting', 'webarx_bad_query_strings', 'webarx_advanced_character_string_filter', 'webarx_advanced_blacklist_firewall', 'webarx_forbid_rfi', 'webarx_image_hotlinking', 'webarx_add_security_headers', 'webarx_firewall_log_lastid', 'webarx_user_log_lastid', 'webarx_captcha_public_key', 'webarx_captcha_private_key', 'webarx_scan_interval', 'webarx_scan_day', 'webarx_scan_time', 'webarx_hackers_log', 'webarx_users_log', 'webarx_visitors_log', 'external_updates-webarx', 'webarx_wp_stats', 'webarx_captcha_login_form', 'webarx_license_activated', 'webarx_license_expiry', 'webarx_software_data_hash', 'webarx_mv_wp_login', 'webarx_rename_wp_login', 'webarx_googledrive_backup_is_running', 'webarx_googledrive_upload_state', 'webarx_googledrive_access_token', 'webarx_googledrive_refresh_token', 'webarx_cron_offset', 'webarx_htaccess_rules_hash');
         foreach ($options as $option) {
             delete_option($option);
@@ -359,7 +359,7 @@ if (!function_exists('webarx_uninstall')) {
             }
         }
 
-        // Drop all WebARX tables.
+        // Drop all Patchstack tables.
         global $wpdb;
         $tables = array('webarx_user_log', 'webarx_visitor_log', 'webarx_firewall_log', 'webarx_file_hashes', 'webarx_logic', 'webarx_ip', 'webarx_event_log');
         foreach ($tables as $table) {
@@ -370,7 +370,7 @@ if (!function_exists('webarx_uninstall')) {
 
 if (!function_exists('webarx')) {
 	/**
-	 * Grab the Webarx object and return it.
+	 * Grab the Patchstack object and return it.
 	 *
 	 * @return Webarx
 	 */

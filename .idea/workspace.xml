@@ -3,33 +3,146 @@
   <component name="ChangeListManager">
     <list default="true" id="89132061-0ddb-4c88-818d-e0f224ccbb56" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.mo" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/admin-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/continents-cities-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/continents-cities-fr_FR.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-0cc31205f20441b3df1d1b46100f6b8d.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-0cc31205f20441b3df1d1b46100f6b8d.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-0eebe503220d4a00341eb011b92769b4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-0eebe503220d4a00341eb011b92769b4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-1c4303f02ff93b290e9faad991eeb06f.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-1c4303f02ff93b290e9faad991eeb06f.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-1d17475f620f63a92e2c5d2681c51ee8.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-1d17475f620f63a92e2c5d2681c51ee8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-2b390f85a3048c5b4255fb45960b6514.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-2b390f85a3048c5b4255fb45960b6514.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-4a38fe1c0c45989e44682ba6109d9f46.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-4a38fe1c0c45989e44682ba6109d9f46.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-4bfa11da57ff2600004bb500368247f4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-4bfa11da57ff2600004bb500368247f4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-50278328b502f4eb3f2b8b7ab49324a1.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-50278328b502f4eb3f2b8b7ab49324a1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-5251f7623766a714c8207c7edb938628.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-5251f7623766a714c8207c7edb938628.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-529362903a5a05b34b06b5e793fb4cf8.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-529362903a5a05b34b06b5e793fb4cf8.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-569e85ef168299eb8c8f24d8ef8c8a78.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-569e85ef168299eb8c8f24d8ef8c8a78.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-6025add6bde16aaeb12787d250f9b414.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-6025add6bde16aaeb12787d250f9b414.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-7436b7ee9e4f11ac0d618d8cc886eb66.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-7436b7ee9e4f11ac0d618d8cc886eb66.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-77fdfadaf2e1ca3a027d1956b910bc50.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-77fdfadaf2e1ca3a027d1956b910bc50.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-7d5ca435e60d92f024d46c9257aaa0f7.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-7d5ca435e60d92f024d46c9257aaa0f7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-81d6f084cb273e02e15b01bd9ece87f7.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-81d6f084cb273e02e15b01bd9ece87f7.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-8240df461220d1d3a028a9a4c5652a5b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-8240df461220d1d3a028a9a4c5652a5b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-9b256ea9cd54df92095e04c76758ceb0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-9b256ea9cd54df92095e04c76758ceb0.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-9c3519f4870fac83dc0dbf18cb6bd4c4.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-9c3519f4870fac83dc0dbf18cb6bd4c4.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-9d47a87c240c1d10701cd6a02b28aa1b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-9d47a87c240c1d10701cd6a02b28aa1b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-a9dc201dcd011fe71849743133052619.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-a9dc201dcd011fe71849743133052619.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-aabfce98c410957228848dc581e3c420.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-aabfce98c410957228848dc581e3c420.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-ca28138671823450e87dfd354f7afc6b.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-ca28138671823450e87dfd354f7afc6b.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/languages/fr_FR-e2e4c4b80f3adf2c70b431bfdb1b4872.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/languages/fr_FR-e2e4c4b80f3adf2c70b431bfdb1b4872.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/blocks/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/blocks/init.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/changelog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/changelog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/class-olympus-google-fonts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/class-olympus-google-fonts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/includes/customizer/output-css.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/includes/customizer/output-css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/includes/customizer/settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/includes/customizer/settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/includes/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/includes/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/includes/gutenberg/output-css.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/includes/gutenberg/output-css.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/olympus-google-fonts.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/olympus-google-fonts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/olympus-google-fonts/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/activation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/activation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/admin/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/admin/general.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/admin/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/admin/menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/admin/options.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/admin/options.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/cron.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/cron.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/firewall.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/firewall.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/hardening.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/hardening.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/htaccess.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/htaccess.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/listener.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/listener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/update-checker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/update-checker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/includes/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/languages/webarx.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/languages/webarx.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/ca-bundle/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/ca-bundle/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/ca-bundle/res/cacert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/ca-bundle/res/cacert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/ca-bundle/src/CaBundle.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/composer/ca-bundle/src/CaBundle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/.php_cs" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/.php_cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Database/Reader.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Database/Reader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/AddressNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/AddressNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/AuthenticationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/AuthenticationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/GeoIp2Exception.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/GeoIp2Exception.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/HttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/InvalidRequestException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/InvalidRequestException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/OutOfQueriesException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Exception/OutOfQueriesException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/AbstractModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/AbstractModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/AnonymousIp.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/AnonymousIp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Asn.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Asn.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/ConnectionType.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/ConnectionType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Country.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Domain.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Domain.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Enterprise.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Enterprise.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Insights.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Insights.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Isp.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Model/Isp.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/ProviderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/ProviderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/AbstractPlaceRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/AbstractPlaceRecord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/AbstractRecord.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/AbstractRecord.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Continent.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Continent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Country.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Country.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Location.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Location.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/MaxMind.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/MaxMind.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Postal.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Postal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/RepresentedCountry.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/RepresentedCountry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Subdivision.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Subdivision.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Traits.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/Record/Traits.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/WebService/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/geoip2/geoip2/src/WebService/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/ext/config.m4" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/ext/config.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/ext/maxminddb.c" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/ext/maxminddb.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/ext/php_maxminddb.h" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/ext/php_maxminddb.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader/Decoder.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader/Decoder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader/InvalidDatabaseException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader/InvalidDatabaseException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader/Metadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader/Metadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader/Util.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind-db/reader/src/MaxMind/Db/Reader/Util.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/dev-bin/release.sh" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/dev-bin/release.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/AuthenticationException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/AuthenticationException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/HttpException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/HttpException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/InsufficientFundsException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/InsufficientFundsException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/InvalidInputException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/InvalidInputException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/InvalidRequestException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/InvalidRequestException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/IpAddressNotFoundException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/IpAddressNotFoundException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/PermissionRequiredException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/PermissionRequiredException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/WebServiceException.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/Exception/WebServiceException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/WebService/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/WebService/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/WebService/Http/CurlRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/WebService/Http/CurlRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/WebService/Http/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/WebService/Http/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/WebService/Http/RequestFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/geoip2-php/maxmind/web-service-common/src/WebService/Http/RequestFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Autoloader.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Autoloader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/Extension.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/Extension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/Panel.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/Panel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/PluginExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/PluginExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/PluginPanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/PluginPanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/ThemePanel.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/DebugBar/ThemePanel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Factory.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Factory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Metadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Metadata.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/OAuthSignature.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/OAuthSignature.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Plugin/Info.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Plugin/Info.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Plugin/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Plugin/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Plugin/UpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Scheduler.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Scheduler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/StateStore.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/StateStore.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Theme/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Theme/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Theme/UpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Theme/UpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Update.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Update.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/UpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/UpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/UpgraderStatus.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/UpgraderStatus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/Api.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/Api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/BaseChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/BaseChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/BitBucketApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/BitBucketApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/GitHubApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/GitHubApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/GitLabApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/GitLabApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/PluginUpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/Reference.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/Reference.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/ThemeUpdateChecker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/Puc/v4p4/Vcs/ThemeUpdateChecker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/css/puc-debug-bar.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/css/puc-debug-bar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/js/debug-bar.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/js/debug-bar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-da_DK.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-da_DK.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-de_DE.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-de_DE.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-fa_IR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-fa_IR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-fr_CA.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-fr_CA.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-fr_FR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-fr_FR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-hu_HU.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-hu_HU.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-it_IT.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-it_IT.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-ja.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-ja.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-pt_BR.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-pt_BR.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-sv_SE.po" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker-sv_SE.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker.pot" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/languages/plugin-update-checker.pot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/plugin-update-checker.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/plugin-update-checker.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/vendor/Parsedown.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/vendor/Parsedown.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/vendor/ParsedownLegacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/vendor/ParsedownLegacy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/vendor/readme-parser.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/lib/plugin-update-checker/vendor/readme-parser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/webarx/webarx.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/webarx/webarx.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/email-summaries.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/wpforms/cache/email-summaries.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,14 +157,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>jsapi?</find>
-      <find>wp_enqueue_script</find>
       <find>wp_enqueue_script('jquery')</find>
       <find>add_filter(</find>
       <find>jquery</find>
       <find>wpcp_disable_selection</find>
       <find>babylon-viewer</find>
+      <find>wpb_hook_javascript</find>
+      <find>wp_enqueue_script</find>
     </findStrings>
     <dirStrings>
+      <dir>C:\wamp64\www\frederickguerrigalerie\wp-content</dir>
       <dir>C:\wamp64\www\frederickguerrigalerie</dir>
     </dirStrings>
   </component>
@@ -74,17 +189,18 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="105" />
-    <option name="y" value="10" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="163" />
+    <option name="y" value="36" />
     <option name="width" value="1670" />
-    <option name="height" value="894" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,7 +217,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -138,14 +253,15 @@
       <workItem from="1619016528609" duration="2080000" />
       <workItem from="1619029686034" duration="382000" />
       <workItem from="1619086741634" duration="1192000" />
+      <workItem from="1621864829312" duration="1286000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6015000" />
+    <option name="totallyTimeSpent" value="7301000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="8" width="1336" height="715" extended-state="0" />
+    <frame x="131" y="29" width="1336" height="716" extended-state="1" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />

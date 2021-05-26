@@ -21,7 +21,7 @@ msgstr ""
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
-msgid "https://www.webarxsecurity.com"
+msgid "https://patchstack.com"
 msgstr ""
 
 #. Description of the plugin
@@ -354,11 +354,11 @@ msgid "Check this if you want to enable reCAPTCHA on password reset."
 msgstr ""
 
 #: includes/admin/options.php:600
-msgid "<br>Enter the reCAPTCHA site key here. Click <a href=\"https://support.webarxsecurity.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature\">here</a> for a guide on how to get the site / secret key."
+msgid "<br>Enter the reCAPTCHA site key here. Click <a href=\"https://support.patchstack.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature\">here</a> for a guide on how to get the site / secret key."
 msgstr ""
 
 #: includes/admin/options.php:608
-msgid "<br>Enter the reCAPTCHA secret key here. Click <a href=\"https://support.webarxsecurity.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature\">here</a> for a guide on how to get the site / secret key."
+msgid "<br>Enter the reCAPTCHA secret key here. Click <a href=\"https://support.patchstack.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature\">here</a> for a guide on how to get the site / secret key."
 msgstr ""
 
 #: includes/admin/options.php:635

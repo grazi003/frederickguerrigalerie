@@ -173,7 +173,7 @@ class W_Activation extends W_Core
      */
     public function activate_multisite_license($site, $license)
     {
-        // Build the WebARX tables on the site.
+        // Build the Patchstack tables on the site.
         $this->migrate(null, $site->id);
 
         // Add the options to given site.
@@ -206,7 +206,7 @@ class W_Activation extends W_Core
     }
 
     /**
-     * Build the required WebARX tables.
+     * Build the required Patchstack tables.
      *
      * @param null|string $ver The version to upgrade to.
      * @param null|integer $site_id The blog id to perform the upgrades on.
@@ -219,7 +219,7 @@ class W_Activation extends W_Core
         $charset_collate = $wpdb->get_charset_collate();
         $prefix = $site_id != null ? $wpdb->get_blog_prefix($site_id) : $wpdb->prefix;
 
-        // The following conditions will only execute if WebARX is installed because of an update
+        // The following conditions will only execute if Patchstack is installed because of an update
         // and if we need to perform migrations.
         if ($ver !== null && $ver != '1.0.7' && file_exists(dirname(__FILE__) . '/migrations/v' . str_replace('.', '', $ver) . '.php')) {
             require_once dirname(__FILE__) . '/migrations/v' . str_replace('.', '', $ver) . '.php';
@@ -260,7 +260,7 @@ class W_Activation extends W_Core
             $webarxApi->update_firewall_status(array('status' => 0));
         }
 
-        // Clear all WebARX scheduled tasks.
+        // Clear all Patchstack scheduled tasks.
         $tasks = array('webarx_zip_backup', 'webarx_send_software_data', 'webarx_send_hacker_logs', 'webarx_send_visitor_logs', 'webarx_send_event_logs', 'webarx_reset_blocked_attacks', 'webarx_post_firewall_rules', 'webarx_post_dynamic_firewall_rules', 'webarx_update_license_status', 'webarx_update_plugins', 'webarx_send_ping');
         foreach ($tasks as $task) {
             wp_clear_scheduled_hook($task);

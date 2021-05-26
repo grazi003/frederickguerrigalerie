@@ -14,7 +14,7 @@ define( 'WP_CACHE', true );
  * * Database table prefix
  * * ABSPATH
  *
- * @link https://codex.wordpress.org/Editing_wp-config.php
+ * @link https://wordpress.org/support/article/editing-wp-config-php/
  *
  * @package WordPress
  */
@@ -68,15 +68,27 @@ define( 'WP_CACHE_KEY_SALT', 'N/ERz;(YWy!g+ckk7eJ;B>]4.+2}DUUmD6k)gh%#_,Iq4zG:SO
  */
 $table_prefix = 'wp_';
 
+/**
+ * For developers: WordPress debugging mode.
+ *
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the documentation.
+ *
+ * @link https://wordpress.org/support/article/debugging-in-wordpress/
+ */
 
+ 
+define( 'WP_DEBUG', false );
 
-
-define( 'WP_AUTO_UPDATE_CORE', true );
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-	define( 'ABSPATH', dirname( __FILE__ ) . '/' );
+	define( 'ABSPATH', __DIR__ . '/' );
 }
 
 /** Sets up WordPress vars and included files. */

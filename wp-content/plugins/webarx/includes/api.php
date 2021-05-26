@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * This class is used as a base for communicating with the WebARX API.
+ * This class is used as a base for communicating with the Patchstack API.
  */
 class W_Api extends W_Core
 {
@@ -314,7 +314,7 @@ class W_Api extends W_Core
 	}
 
 	/**
-	 * Send a ping to the WebARX API every 3 hours to make sure that the plugin is still running.
+	 * Send a ping to the Patchstack API every 3 hours to make sure that the plugin is still running.
 	 * 
 	 * @return void
 	 */

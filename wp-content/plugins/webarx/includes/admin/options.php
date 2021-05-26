@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * This class is used to register all the options that WebARX uses and anything
+ * This class is used to register all the options that Patchstack uses and anything
  * related to options.
  */
 class W_Admin_Options extends W_Core
@@ -706,14 +706,14 @@ class W_Admin_Options extends W_Core
     }
 
 	public function webarx_captcha_public_key_input() {
-		$string1 = __('<br><br>Enter the reCAPTCHA site key here.<br>Click <a href="https://support.webarxsecurity.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature" target="_blank">here</a> for a guide on how to get the site / secret key.', 'webarx');
+		$string1 = __('<br><br>Enter the reCAPTCHA site key here.<br>Click <a href="https://support.patchstack.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature" target="_blank">here</a> for a guide on how to get the site / secret key.', 'webarx');
 		echo('<input style="display:none;" type="text" name="webarx_captcha_public_key" id="webarx_captcha_public_key" value="' . htmlspecialchars($this->get_option('webarx_captcha_public_key', ''), ENT_QUOTES) . '"/>'
             . '<input style="display:none;" type="text" name="webarx_captcha_public_key_v3" id="webarx_captcha_public_key_v3" value="' . htmlspecialchars($this->get_option('webarx_captcha_public_key_v3', ''), ENT_QUOTES) . '"/>'
 			. '<label for="webarx_captcha_public_key"><i>' . $string1 . '</i></label>');
 	}
 
 	public function webarx_captcha_private_key_input() {
-		$string1 = __('<br><br>Enter the reCAPTCHA secret key here.<br>Click <a href="https://support.webarxsecurity.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature" target="_blank">here</a> for a guide on how to get the site / secret key.', 'webarx');
+		$string1 = __('<br><br>Enter the reCAPTCHA secret key here.<br>Click <a href="https://support.patchstack.com/technical-support-and-troubleshooting/plugin/how-to-get-the-site-and-secret-key-for-the-recaptcha-feature" target="_blank">here</a> for a guide on how to get the site / secret key.', 'webarx');
 		echo('<input style="display:none;" type="text" name="webarx_captcha_private_key" id="webarx_captcha_private_key" value="' . htmlspecialchars($this->get_option('webarx_captcha_private_key', ''), ENT_QUOTES) . '"/>'
             . '<input style="display:none;" type="text" name="webarx_captcha_private_key_v3" id="webarx_captcha_private_key_v3" value="' . htmlspecialchars($this->get_option('webarx_captcha_private_key_v3', ''), ENT_QUOTES) . '"/>'
 			. '<label for="webarx_captcha_private_key"><i>' . $string1 . '</i></label>');

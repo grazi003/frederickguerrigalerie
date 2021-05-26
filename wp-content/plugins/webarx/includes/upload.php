@@ -81,7 +81,7 @@ class W_Upload extends W_Core
 	{
 		global $wpdb;
 		$lastid = get_option('webarx_firewall_log_lastid', 0, true);
-		$items = $wpdb->get_results($wpdb->prepare("SELECT id, ip, log_date, request_uri, referer, user_agent, fid, protocol, method, query_string, query_vars, post_data FROM " . $wpdb->prefix . "webarx_firewall_log WHERE id > %d ORDER BY id", $lastid));
+		$items = $wpdb->get_results($wpdb->prepare("SELECT id, ip, log_date, request_uri, user_agent, fid, method, post_data FROM " . $wpdb->prefix . "webarx_firewall_log WHERE id > %d ORDER BY id", $lastid));
 		
 		// No need to synchronize if there are no new logs present.
 		if ($wpdb->num_rows == 0) {
@@ -103,10 +103,7 @@ class W_Upload extends W_Core
 				'fid' => $item->fid,
 				'request_uri' => $item->request_uri,
 				'user_agent' => $item->user_agent,
-				'protocol' => $item->protocol,
 				'method' => $item->method,
-				'query_string' => $item->query_string,
-				'query_vars' => $item->query_vars,
 				'log_date' => $item->log_date,
 				'post_data' => $item->post_data
 			);

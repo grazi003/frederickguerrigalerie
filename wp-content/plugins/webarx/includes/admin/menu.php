@@ -28,7 +28,7 @@ class W_Admin_Menu extends W_Core
 	}
 
 	/**
-	 * Add WebARX nonce as meta tag so we can access it in our JavaScript files.
+	 * Add Patchstack nonce as meta tag so we can access it in our JavaScript files.
 	 * 
 	 * @return void
 	 */
@@ -83,7 +83,7 @@ class W_Admin_Menu extends W_Core
 	{
 		$screen = get_current_screen();
 
-		// Load the WebARX style on all WebARX pages except site overview.
+		// Load the Patchstack style on all Patchstack pages except site overview.
 		if (isset($screen->base, $_GET['page']) && stripos($screen->base, 'webarx') !== false && $_GET['page'] != 'webarx-multisite') {
 			wp_enqueue_style('webarx', $this->plugin->url . 'assets/css/webarx.min.css', array(), $this->plugin->version);
 		}
@@ -93,7 +93,7 @@ class W_Admin_Menu extends W_Core
 			wp_enqueue_style('webarx', $this->plugin->url . 'assets/css/widget.min.css', array(), $this->plugin->version);
 		}
 
-		// Load font-awesome on multisite when on dashboard or webarx pages.
+		// Load font-awesome on multisite when on dashboard or Patchstack pages.
         if (is_multisite() && isset($screen, $screen->base) && (($screen->base == 'dashboard' && $this->get_option('webarx_display_widget', true)) || stripos($screen->base, 'webarx') !== false)) {
             wp_enqueue_style('style', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
         }
@@ -120,7 +120,7 @@ class W_Admin_Menu extends W_Core
 	}
 
 	/**
-	 * Add the "Settings" hyperlink to the WebARX section on the plugins page of WordPress.
+	 * Add the "Settings" hyperlink to the Patchstack section on the plugins page of WordPress.
 	 *
 	 * @param array $links
 	 * @return array

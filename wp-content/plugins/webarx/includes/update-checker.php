@@ -6,7 +6,7 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * This class is used to check for updates of the WebARX plugin.
+ * This class is used to check for updates of the Patchstack plugin.
  */
 class W_Update_Checker extends W_Core
 {
@@ -23,7 +23,7 @@ class W_Update_Checker extends W_Core
 	}
 
 	/**
-	 * Contact the WebARX update server and check if the WebARX plugin version is outdated.
+	 * Contact the Patchstack update server and check if the Patchstack plugin version is outdated.
 	 * 
 	 * @return void
 	 */

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - LiteSpeed Cache - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-03-18 15:31:21+0000\n"
+"PO-Revision-Date: 2021-05-16 14:21:52+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1405,6 +1405,22 @@ msgstr "Âge maximal des révisions"
 msgid "Revisions Max Number"
 msgstr "Nombre maximum de révisions"
 
+#: src/lang.cls.php:232
+msgid "Debug URI Excludes"
+msgstr "L’URL de débogage exclut"
+
+#: src/lang.cls.php:231
+msgid "Debug URI Includes"
+msgstr "L’URL de débogage comprend"
+
+#: src/lang.cls.php:221
+msgid "Drop Domain from Sitemap"
+msgstr "Supprimer le domaine du plan de site"
+
+#: src/lang.cls.php:216
+msgid "Timeout"
+msgstr "Délai dépassé"
+
 #: src/lang.cls.php:204
 msgid "HTML Attribute To Replace"
 msgstr "Attribut HTML à remplacer"
@@ -1417,9 +1433,37 @@ msgstr "Utiliser le mappage CDN"
 msgid "QUIC.cloud CDN"
 msgstr "CDN QUIC.cloud"
 
+#: src/lang.cls.php:195
+msgid "Editor Heartbeat TTL"
+msgstr "Éditeur Heartbeat TTL"
+
+#: src/lang.cls.php:194
+msgid "Editor Heartbeat"
+msgstr "Éditeur Heartbeat"
+
 #: src/lang.cls.php:189
 msgid "Backend .htaccess Path"
 msgstr "Chemin du .htaccess de l’interface d’administration"
+
+#: src/lang.cls.php:188
+msgid "Frontend .htaccess Path"
+msgstr "Chemin .htaccess sur interface publique"
+
+#: src/lang.cls.php:178
+msgid "ESI Nonces"
+msgstr "Nonces d’ESI"
+
+#: src/lang.cls.php:174
+msgid "WordPress Image Quality Control"
+msgstr "Contrôle de la qualité des images WordPress"
+
+#: src/lang.cls.php:169
+msgid "Create WebP Versions"
+msgstr "Créer les versions WebP"
+
+#: src/lang.cls.php:166
+msgid "Auto Pull Cron"
+msgstr "Cron de traction automatique"
 
 #: src/lang.cls.php:162
 msgid "Generate LQIP In Background"
@@ -1441,9 +1485,17 @@ msgstr "Générateur de cloud de LQIP"
 msgid "Notifications"
 msgstr "Notifications"
 
+#: src/lang.cls.php:57
+msgid "Enable Cache"
+msgstr "Activer la mise en cache"
+
 #: src/lang.cls.php:54
 msgid "Server IP"
 msgstr "IP du serveur"
+
+#: src/lang.cls.php:24
+msgid "Images not requested"
+msgstr "Images non demandées"
 
 #: src/admin-display.cls.php:1065
 msgid "Invalid IP"
